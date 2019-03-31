@@ -1,0 +1,51 @@
+body 
+{
+    background: #111;
+    color: white;
+    font-family: Tahoma, Geneva, sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5
+{
+    color: white;
+    font-family: Tahoma, Geneva, sans-serif;
+    text-align: center;
+}
+
+.button 
+{
+  background-color: #222;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button2 
+{
+  background-color: #333;
+  color: white;
+  border: 2px solid #222;
+  padding: 8px 16px;
+}
+
+.button2:hover 
+{
+  background-color: #222;
+  color: white;
+}
+
+.topleft
+{
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  margin-top: 0;
+}
